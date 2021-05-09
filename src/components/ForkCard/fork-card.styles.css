@@ -1,0 +1,17 @@
+.fork-card{
+  background-color: rgb(194, 194, 194);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 20px;
+  flex :1;
+}
+
+.fork-card__details {
+  margin-left: 20px;
+}
+
+img{
+  height: 100px;
+  border-radius: 50%;
+}
