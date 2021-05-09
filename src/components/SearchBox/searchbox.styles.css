@@ -1,0 +1,36 @@
+.searchbox-container{
+  padding: 10px;
+  text-align: center;
+}
+
+.searchbox-container input[type="search"]{
+  padding: 5px 10px;
+  text-align: center;
+  width: 80%;
+  border: none;
+  border-bottom: 2px solid gray;
+  color: rgb(58, 58, 58);
+  margin: 5px 10px;
+  font-size: 1.2rem;
+}
+
+.searchbox-container input[type="search"]:focus{
+  outline: none;
+  border-bottom: 2px solid rgb(49, 212, 49);
+}
+
+.search-btn{
+  border: 2px solid gray;
+  padding: 5px 10px;
+  background-color: transparent;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.search-btn:hover{
+  background-color: rgb(49, 212, 49);
+  border: 2px solid transparent;
+  color: white;
+}

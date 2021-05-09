@@ -1,11 +1,13 @@
 import React, { useRef } from "react";
+import "./searchbox.styles.css"
 
 function SearchBox({ handleSearchUser }) {
   const refInput = useRef(null);
   return (
-    <div>
+    <div className="searchbox-container">
       <input type="search" placeholder="Search" ref={refInput} />
       <button
+      className="search-btn"
         onClick={() => {
           console.log(`Search User: ${refInput.current.value}`);
           handleSearchUser(refInput.current.value);

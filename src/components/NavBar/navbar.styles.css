@@ -1,0 +1,10 @@
+.navbar-nav{
+  padding: 10px 20px;
+  color: white;
+  background: linear-gradient(45deg, rgb(49, 212, 49), rgb(49, 212, 130));
+  background: rgb(49, 212, 130);
+}
+
+.logo-git{
+  font-weight: 100;
+}
