@@ -1,3 +1,8 @@
 .forks-container{
   display: flex;
+  background-color: aquamarine;
+}
+
+.files-container{
+  background-color: burlywood;
 }
