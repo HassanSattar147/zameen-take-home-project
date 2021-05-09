@@ -6,9 +6,10 @@
 .searchbox-container input[type="search"]{
   padding: 5px 10px;
   text-align: center;
-  width: 80%;
+  width: 50%;
   border: none;
   border-bottom: 2px solid gray;
+  background-color: transparent;
   color: rgb(58, 58, 58);
   margin: 5px 10px;
   font-size: 1.2rem;
@@ -20,17 +21,21 @@
 }
 
 .search-btn{
-  border: 2px solid gray;
+  border: 2px solid rgb(49, 212, 49);
   padding: 5px 10px;
   background-color: transparent;
   border-radius: 4px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   font-size: 1rem;
   cursor: pointer;
 }
 
 .search-btn:hover{
   background-color: rgb(49, 212, 49);
-  border: 2px solid transparent;
   color: white;
+}
+
+.invisible{
+  opacity: 0;
+  cursor: auto;
 }

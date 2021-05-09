@@ -12,7 +12,7 @@ function CurrentUserCard(props) {
     <div className="user-card-container">
       <div className="user-card">
         <div className="user-card-header-gradient"></div>
-        <img className="user-card-img" src={currUserAvatarUrl} alt={`Image of ${currUserName}`} />
+        <img className="user-card-img" src={currUserAvatarUrl} />
         <div className="user-card__details">
           <h2>{currUserName}</h2>
           <p>

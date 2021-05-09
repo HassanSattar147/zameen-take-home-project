@@ -5,6 +5,7 @@ function SearchBox({ handleSearchUser }) {
   const refInput = useRef(null);
   return (
     <div className="searchbox-container">
+      <button className="search-btn invisible">Search</button>
       <input type="search" placeholder="Search" ref={refInput} />
       <button
       className="search-btn"

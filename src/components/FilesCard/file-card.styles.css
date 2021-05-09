@@ -1,7 +1,44 @@
-.line-break-class{
+.line-break-class {
   white-space: pre-line;
 }
 
-.file-card{
-  background-color: rgba(0,0,0,0.2);
+.file-card {
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 10px 0px;
+  margin: 15px 0;
 }
+
+.file-style-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.file-type-badge {
+  background: linear-gradient(45deg, rgb(49, 212, 49), rgb(6, 158, 82));
+  padding: 3px 5px;
+  color: white;
+  border-radius: 3px;
+}
+
+.file-content-toggle-button{
+  background-color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.file-content-toggle-button:hover {
+  background-color: rgb(227, 231, 235);
+}
+
+.file-content {
+  border-top: 2px solid gray;
+  padding: 10px 0px;
+  margin-top: 10px;
+}
+

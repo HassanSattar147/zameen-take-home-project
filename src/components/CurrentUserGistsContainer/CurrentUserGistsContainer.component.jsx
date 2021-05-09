@@ -5,8 +5,8 @@ import "./current-user-gists-container.styles.css";
 function CurrentUserGistsContainer({ gistsDetails }) {
   return (
     <div className="gists-container">
-      {gistsDetails.map((gistDetails) => (
-        <GistCard gistDetails={gistDetails} />
+      {gistsDetails.map((gistDetails, index) => (
+        <GistCard key={index} gistDetails={gistDetails} />
       ))}
     </div>
   );
